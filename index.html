@@ -13,8 +13,33 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk:wght@400;700&family=Trispace&display=swap" rel="stylesheet">
   </head>
   <body>
-    <p>Testing</p>
+    <div class="container-fluid">
+      <div id = "gameContainer">
+        <img src = "images/icons8-alien-monster-emoji-48.png" class="alien hidden"/>
+        <img src = "images/icons8-space-64.png" class="astronaut hidden"/>
+        <img src = "images/icons8-space-exploration-64.png" class="planet hidden"/>
+        <img src = "images/icons8-spaceship-66.png" class="spaceship hidden"/>
+
+
+        <h1>10 Second Maths!</h1>
+        <p>Solve as many math problems as you can in 10 seconds! Every time you get one right, one second is added to the clock. How many points can you get?</p>
+        <div id = "timerContainer">
+          <span id="timer">10 s</span>
+        </div>
+        <div id = "equation">
+        </div>
+          <div class = "answerBox">
+            <input type="text" id="answer">
+            <div id="points">
+              Points: <span id="pointTotal">0</span>
+            </div>
+          </div>
+      </div>
+    </div>
   </body>
 </html>
