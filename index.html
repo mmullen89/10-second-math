@@ -20,18 +20,28 @@
   <body>
     <div class="container-fluid">
       <div id = "gameContainer">
-        <img src = "images/icons8-alien-monster-emoji-48.png" class="alien hidden"/>
-        <img src = "images/icons8-space-64.png" class="astronaut hidden"/>
-        <img src = "images/icons8-space-exploration-64.png" class="planet hidden"/>
-        <img src = "images/icons8-spaceship-66.png" class="spaceship hidden"/>
-
-
-        <h1>10 Second Maths!</h1>
-        <p>Solve as many math problems as you can in 10 seconds! Every time you get one right, one second is added to the clock. How many points can you get?</p>
-        <div id = "timerContainer">
-          <span id="timer">10 s</span>
+        <div class = "row">
+          <img src = "images/icons8-alien-monster-emoji-48.png" class="alien hidden"/>
+          <img src = "images/icons8-space-64.png" class="astronaut hidden"/>
+          <img src = "images/icons8-space-exploration-64.png" class="planet hidden"/>
+          <img src = "images/icons8-spaceship-66.png" class="spaceship hidden"/>
+          <div class="col-12">
+            <h1>10 Second Maths!</h1>
+          </div>
         </div>
-        <div id = "equation">
+        <div class = "row">
+          <div class="col-12">
+            <p>Solve as many math problems as you can in 10 seconds! Every time you get one right, one second is added to the clock. How many points can you get?</p>
+          </div>
+        </div>
+        <div class = "row">
+          <div id = "timerContainer col-12">
+            <span id="timer">10 s</span>
+          </div>
+        </div>
+        <div class = "row">
+          <div id = "equation" class="col-12">
+          </div>
         </div>
           <div class = "answerBox">
             <input type="text" id="answer">
